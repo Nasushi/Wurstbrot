@@ -1,13 +1,12 @@
 puts "Wilkommen zu Nils-Super-Duper-Matheprogramm"
 puts "Wie schwer soll den der Shit sein mhh? Gibt die Oins, Zwoi und Droi. Wähle Weise MEATHEAD"
-
 y=gets.chomp.to_i
+  puts "Option 1: Geteilt, Option 2: Mal, Option 3: Plus, Option 4: Minus, Option 5:Programm Beenden, Option 6:Liste von Aufgaben"
 if y==1
 loop do
 a=rand(10.00)*1.00
 b=rand(10.00)*1.00
 puts "Hallööö was willschte machen?"
-  puts "Option 1: Geteilt, Option 2: Mal, Option 3: Plus, Option 4: Minus, Option 5:Programm Beenden, Option 6:Liste von Aufgaben"
 x=gets.chomp.to_i
 if x==1 
 puts "Was sind "+a.to_s+"/"+b.to_s+" ?"
